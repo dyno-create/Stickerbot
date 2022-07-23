@@ -7,4 +7,9 @@
 2) Edit `.env` file
 3) Run with `docker build` and `docker run`
 
+# Heroku installation
+
+## Deploy To Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
