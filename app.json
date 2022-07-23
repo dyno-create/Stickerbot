@@ -1,0 +1,29 @@
+{
+    "name": "fstikbot",
+    "description": "Telegram Sticker Bot in js",
+    "keywords": [
+        "telegram", 
+        "sticker"
+    ],
+    "repository": "https://github.com/PratheekXD/Sticker",
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "A bot token from @BotFather.",
+            "required": true
+        },
+        "MONGODB_URI": {
+            "description": "mongodb uri from mongodb.com",
+            "required": true
+        },
+        "PROVIDER_TOKEN": {
+            "description": "Provider Token",
+            "required": true
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        }
+    ]
+}
